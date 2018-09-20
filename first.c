@@ -5,12 +5,12 @@
 
 int main(int argc, char *argv[]) {
 	char c;
-	int i;
+
 	
-	printf("Input a number: ");
+	printf("Input a character: ");
 	scanf("%c", &c);
 	
-	i=c-'0';
-	printf("The input number is %i\n", i);
+	
+	printf("The next character of %c is %c\n", c, c+1);
 	return 0;
 }
